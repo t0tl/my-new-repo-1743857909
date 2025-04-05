@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, FlatList, Alert, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, FlatList, Alert, ScrollView, Platform } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { StatusBar } from 'expo-status-bar';
 import { useGame } from '../context/GameContext';
@@ -143,6 +143,12 @@ const GameScreen = () => {
           {' ' + formatTime()} | 
           {' ' + weather.charAt(0).toUpperCase() + weather.slice(1)}
         </Text>
+        <TouchableOpacity 
+          style={styles.mapButton}
+          onPress={() => navigation.navigate('Map' as never)}
+        >
+          <Text style={styles.mapButtonText}>🗺️ View Map</Text>
+        </TouchableOpacity>
       </View>
       
       {/* Main Game Area */}
@@ -303,11 +309,26 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 8,
     marginBottom: 10,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
   environmentText: {
     color: '#FFFFFF',
     fontSize: 14,
-    textAlign: 'center',
+    fontFamily: 'SF-Pro',
+    flex: 1,
+  },
+  mapButton: {
+    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+    paddingVertical: 6,
+    paddingHorizontal: 10,
+    borderRadius: 6,
+    marginLeft: 10,
+  },
+  mapButtonText: {
+    color: '#FFFFFF',
+    fontSize: 14,
     fontFamily: 'SF-Pro',
   },
   gameArea: {
