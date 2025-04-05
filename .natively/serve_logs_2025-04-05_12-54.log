@@ -1,0 +1,35 @@
+ INFO  Accepting connections at http://localhost:8082
+ HTTP  4/5/2025 12:54:23 PM 172.20.0.1 GET /
+ HTTP  4/5/2025 12:54:23 PM 172.20.0.1 Returned 200 in 16 ms
+ HTTP  4/5/2025 12:54:24 PM 172.20.0.1 GET /_expo/static/css/global-f72a62d2075c8088ba50a67e66d8290e.css
+ HTTP  4/5/2025 12:54:24 PM 172.20.0.1 Returned 200 in 2 ms
+ HTTP  4/5/2025 12:54:24 PM 172.20.0.1 GET /_expo/static/js/web/index-421177d51f5d94a333492a81966f4f24.js
+ HTTP  4/5/2025 12:54:24 PM 172.20.0.1 Returned 200 in 3 ms
+ HTTP  4/5/2025 12:54:24 PM 172.20.0.1 GET /favicon.ico
+ HTTP  4/5/2025 12:54:24 PM 172.20.0.1 Returned 200 in 2 ms
+ HTTP  4/5/2025 12:54:24 PM 172.20.0.1 GET /
+ HTTP  4/5/2025 12:54:24 PM 172.20.0.1 Returned 304 in 1 ms
+ HTTP  4/5/2025 12:54:24 PM 172.20.0.1 GET /assets/public/icosahedron.ea5d98412472b7885d87e61ee4b67a63.svg
+ HTTP  4/5/2025 12:54:24 PM 172.20.0.1 Returned 200 in 2 ms
+ HTTP  4/5/2025 12:54:25 PM 172.20.0.1 GET /_expo/static/js/web/index-421177d51f5d94a333492a81966f4f24.js
+ HTTP  4/5/2025 12:54:25 PM 172.20.0.1 GET /_expo/static/css/global-f72a62d2075c8088ba50a67e66d8290e.css
+ HTTP  4/5/2025 12:54:25 PM 172.20.0.1 Returned 304 in 1 ms
+ HTTP  4/5/2025 12:54:25 PM 172.20.0.1 Returned 304 in 1 ms
+ HTTP  4/5/2025 12:54:25 PM 172.20.0.1 GET /assets/public/icosahedron.ea5d98412472b7885d87e61ee4b67a63.svg
+ HTTP  4/5/2025 12:54:25 PM 172.20.0.1 Returned 304 in 4 ms
+ HTTP  4/5/2025 12:54:25 PM 172.20.0.1 GET /favicon.ico
+ HTTP  4/5/2025 12:54:25 PM 172.20.0.1 Returned 304 in 2 ms
+ HTTP  4/5/2025 1:00:25 PM 172.20.0.1 GET /
+ HTTP  4/5/2025 1:00:25 PM 172.20.0.1 Returned 200 in 1 ms
+ HTTP  4/5/2025 1:00:25 PM 172.20.0.1 GET /_expo/static/css/global-f72a62d2075c8088ba50a67e66d8290e.css
+ HTTP  4/5/2025 1:00:25 PM 172.20.0.1 Returned 304 in 1 ms
+ HTTP  4/5/2025 1:00:25 PM 172.20.0.1 GET /_expo/static/js/web/index-151f18c07bf1694a62a00f195c7d07b7.js
+ HTTP  4/5/2025 1:00:25 PM 172.20.0.1 Returned 200 in 4 ms
+ HTTP  4/5/2025 1:00:26 PM 172.20.0.1 GET /favicon.ico
+ HTTP  4/5/2025 1:00:26 PM 172.20.0.1 Returned 304 in 1 ms
+ HTTP  4/5/2025 1:00:26 PM 172.20.0.1 GET /assets/assets/fonts/NewYork.62606359f89864ce46835f76a6221d0a.ttf
+ HTTP  4/5/2025 1:00:26 PM 172.20.0.1 Returned 200 in 2 ms
+ HTTP  4/5/2025 1:00:26 PM 172.20.0.1 GET /assets/assets/fonts/SF-Pro.624c45a34fbc015fb178fedaf28ef904.ttf
+ HTTP  4/5/2025 1:00:26 PM 172.20.0.1 Returned 200 in 71 ms
+ HTTP  4/5/2025 1:00:26 PM 172.20.0.1 GET /assets/assets/fonts/SF-Mono-Regular.8e9701d8efc7df15706b06712b1c6de1.otf
+ HTTP  4/5/2025 1:00:26 PM 172.20.0.1 Returned 200 in 1 ms
